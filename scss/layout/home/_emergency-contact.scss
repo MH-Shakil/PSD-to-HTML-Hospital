@@ -1,0 +1,55 @@
+.emergency-contact {
+  padding: 115px 0;
+  margin-top: 130px;
+  background: url("../../img/emergency/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  .overlay {
+    background: url("../../img/emergency/Overlay.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .emergency-header {
+    padding-bottom: 30px;
+    margin-top: 0;
+    color: $white;
+  }
+  .para {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: $primary-font;
+    font-weight: 500;
+    color: $white;
+  }
+  .emergency-c-form {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    .form-control {
+      padding: 25px 15px !important;
+      background-color: $bg-color7;
+      border: none;
+      &::placeholder {
+        color: $white;
+      }
+      @media (max-width: 991px) {
+        margin-bottom: 10px;
+      }
+    }
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+  }
+  .emergency-contact-btn {
+    display: block;
+    margin: auto;
+    background: $bg-color;
+  }
+  @media (max-width: 575px) {
+    margin-top: 50px;
+  }
+}

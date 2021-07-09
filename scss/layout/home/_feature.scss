@@ -1,0 +1,75 @@
+.feature {
+  .feature-main-content {
+    margin-top: 90px;
+    @media (max-width: 991px) {
+      margin-top: 55px;
+    }
+    @media (max-width: 575px) {
+      margin-top: 30px;
+    }
+  }
+  .single-feature-content {
+    padding: 50px 40px 75px 50px;
+    background: $bg-color2;
+    position: relative;
+    .feature-r-m-btn {
+      position: absolute;
+      top: 92%;
+      @media (max-width: 768px) {
+        top: 95%;
+      }
+      @media (max-width: 767px) {
+        left: 35%;
+      }
+      @media (max-width: 425px) {
+        left: 30%;
+      }
+      @media (max-width: 375px) {
+        left: 27%;
+      }
+      @media (max-width: 320px) {
+        left: 30%;
+      }
+    }
+    .single-content-icon {
+      @media (max-width: 767px) {
+        margin: auto;
+        margin-bottom: 35px;
+      }
+    }
+    .single-feature-header {
+      padding-bottom: 23px;
+      font-size: 27px;
+      font-family: $primary-font;
+      font-weight: 600;
+      color: $bg-color3;
+      @media (max-width: 991px) {
+        font-size: 25px;
+      }
+      @media (max-width: 575px) {
+        text-align: center;
+      }
+    }
+    .single-feature-para {
+      font-family: $secondary-font;
+      color: $text-color3;
+      font-size: 16px;
+      font-weight: 400;
+      @media (max-width: 575px) {
+        text-align: center;
+      }
+    }
+  }
+  .single-feature-first {
+    @media (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+  }
+
+  // responsive 991px
+  .single-feature-last {
+    @media (max-width: 991px) {
+      margin: 60px 0;
+    }
+  }
+}

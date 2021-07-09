@@ -1,0 +1,133 @@
+.servies {
+  .single-service-content {
+    position: relative;
+    margin-top: 175px;
+    margin-bottom: 50px;
+    border: none;
+    .img-container {
+      position: absolute;
+      top: -35px;
+      left: 52%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      @media (max-width: 575px) {
+        left: 50%;
+        width: 50%;
+        right: 50%;
+      }
+
+      img {
+        width: 96%;
+        @media (max-width: 575px) {
+          width: 100%;
+        }
+      }
+      // @media (max-width: 576px) {
+      //   left: 15%;
+      // }
+      @media (max-width: 767px) {
+        top: -15px;
+      }
+    }
+    @media (max-width: 767px) {
+      margin-top: 100px;
+      margin-bottom: 30px;
+    }
+  }
+  .services-b-content {
+    color: $black;
+    padding: 150px 45px 40px 35px;
+    box-shadow: 0px 10px 30px 0px rgba(2, 24, 95, 0.04);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+
+    .card-title {
+      font-weight: 600;
+      font-size: 27px;
+      font-family: $primary-font;
+      color: $bg-color3;
+      @media (max-width: 767px) {
+        font-size: 20px;
+      }
+    }
+    .card-text {
+      font-family: $secondary-font;
+      color: $text-color3;
+      font-weight: 400;
+    }
+    &:hover {
+      background: $btn-bg;
+      .card-title,
+      .card-text {
+        color: $white;
+      }
+    }
+    @media (max-width: 767px) {
+      padding-top: 100px;
+    }
+    @media (max-width: 425px) {
+      padding-bottom: 0;
+    }
+    @media (max-width: 375px) {
+      padding-top: 60px;
+    }
+  }
+}
+// Custom To Header
+.custom-top-header {
+  &::before {
+    @media (max-width: 1920px) {
+      left: 40%;
+    }
+    @media (max-width: 1199px) {
+      left: 38%;
+    }
+    @media (max-width: 991px) {
+      left: 34%;
+    }
+    @media (max-width: 767px) {
+      left: 29%;
+    }
+    @media (max-width: 520px) {
+      left: 27%;
+    }
+    @media (max-width: 450px) {
+      left: 22%;
+    }
+    @media (max-width: 375px) {
+      left: 18%;
+    }
+    @media (max-width: 320px) {
+      left: 12%;
+    }
+  }
+  &::after {
+    @media (max-width: 1920px) {
+      right: 40%;
+    }
+    @media (max-width: 1199px) {
+      right: 38%;
+    }
+    @media (max-width: 991px) {
+      right: 34%;
+    }
+    @media (max-width: 767px) {
+      right: 29%;
+    }
+    @media (max-width: 520px) {
+      right: 27%;
+    }
+    @media (max-width: 450px) {
+      right: 22%;
+    }
+    @media (max-width: 400px) {
+      right: 18%;
+    }
+    @media (max-width: 320px) {
+      right: 12%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.about-appointment {
+  margin-top: 130px;
+  background: url("../../../img/about-page/about-appoinment/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .about-appointment-card {
+    width: 75%;
+    margin-left: auto;
+    margin-top: 140px;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+  //   position: relative;
+  //   margin-top: 130px;
+  //   .single-card {
+  //     position: absolute;
+  //     top: 16%;
+  //     width: 25%;
+  //     left: 50%;
+  //     .about-appointment-input {
+  //       padding: 40px 10px;
+  //     }
+  //     .about-appointment-left {
+  //       padding-bottom: 60px;
+  //     }
+  //   }
+}

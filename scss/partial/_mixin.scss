@@ -1,0 +1,42 @@
+@mixin transition($transition...) {
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transform($transform...) {
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+// @mixin transformY($transformY...) {
+//     -moz-transform:    $transformY;
+//     -o-transform:      $transformY;
+//     -webkit-transform: $transformY;
+//     transform:         $transformY;
+// }
+
+// @mixin transformX($transformX...) {
+//     -moz-transform:    $transformX;
+//     -o-transform:      $transformX;
+//     -webkit-transform: $transformX;
+//     transform:         $transformX;
+// }
+
+@mixin flex($flex) {
+  display: $flex;
+  -ms-display: $flex;
+}
+
+// Shakil
+@mixin pseudo-element {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: rgb(35, 149, 255);
+  width: 50px;
+  top: 50%;
+}

@@ -1,0 +1,29 @@
+.about-record {
+  padding-top: 0;
+  .about-record-area {
+    background: url("../../../img/about-page/about-record/Bg.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .record-container {
+    .record-count {
+      @media (max-width: 991px) {
+        font-size: 35px;
+      }
+      @media (max-width: 768px) {
+        font-size: 25px;
+      }
+      @media (max-width: 576px) {
+        padding-bottom: 10px;
+      }
+    }
+    .record-person {
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+      @media (max-width: 576px) {
+        padding-top: 10px;
+      }
+    }
+  }
+}

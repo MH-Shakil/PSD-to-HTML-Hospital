@@ -1,0 +1,35 @@
+@import "partial/variables";
+@import "partial/mixin";
+@import "partial/reset";
+@import "partial/predefined";
+@import "partial/responsive";
+
+// Include Home Layouts
+@import "layout/menu";
+@import "layout/home/banner";
+@import "layout/home/feature";
+@import "layout/home/about";
+@import "layout/home/services";
+@import "layout/home/record";
+@import "layout/home/specialist";
+@import "layout/home/choose-us";
+@import "layout/home/testimonials";
+@import "layout/home/emergency-contact";
+@import "layout/home/sister-concern";
+@import "layout/home/article";
+@import "layout/footer";
+
+// Include About Layouts
+@import "layout/about/banner";
+@import "layout/about/about-mednax";
+@import "layout/about/about-record";
+@import "layout/about/about-appointment";
+@import "layout/about/about_doctors";
+
+// Include Contact Layouts
+@import "layout/contact/contact";
+
+// Include Blog layouts
+@import "layout/blog/blog";
+// Include Single Blog Layouts
+@import "layout/single-blog/single-blog";

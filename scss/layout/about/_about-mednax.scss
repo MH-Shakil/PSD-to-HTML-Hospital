@@ -1,0 +1,68 @@
+.about-mednax {
+  .about-mednax-header {
+    @media (max-width: 1199px) {
+      font-size: 50px;
+    }
+    @media (max-width: 375px) {
+      font-size: 35px;
+    }
+  }
+  margin-top: 0;
+  background: $white;
+  .about-mednax-left {
+    position: relative;
+    z-index: 1;
+    top: 30px;
+    .about-mednax-t-img {
+      position: absolute;
+      top: -70px;
+      left: -70px;
+      z-index: -1;
+      img {
+        width: 100%;
+      }
+    }
+    .about-mednax-b-img {
+      position: absolute;
+      bottom: -30px;
+      right: -30px;
+      z-index: -1;
+    }
+    @media (max-width: 991px) {
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+  .about-mednax-right {
+    @media (max-width: 991px) {
+      padding-top: 90px;
+    }
+    // .about-mednax-r-icon {
+    //   margin-bottom: 25px;
+    // }
+    .para {
+      padding-bottom: 35px;
+    }
+    .madnax-r-b-para {
+      padding-bottom: 50px;
+    }
+    .about-mednax-r-bottom {
+      .bottom-right {
+        padding-left: 20px;
+        padding-right: 60px;
+        .header {
+          font-size: 27px;
+          font-family: "Barlow Condensed", sans-serif;
+          font-weight: 700;
+          padding-bottom: 10px;
+        }
+        .sub-header {
+          font-size: 16px;
+          font-family: "Roboto", sans-serif;
+          color: #515876;
+        }
+      }
+    }
+  }
+}

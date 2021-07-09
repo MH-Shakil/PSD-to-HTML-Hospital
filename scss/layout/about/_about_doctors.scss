@@ -1,0 +1,58 @@
+.doctors-area {
+  .single-doctor-content {
+    position: relative;
+    border: none;
+    .doctor-b-content {
+      padding: 25px 25px;
+      width: 90%;
+      margin: 0 auto;
+      border-left: 4px solid $btn-bg;
+      margin-top: -55px;
+      background: $white;
+      .title {
+        font-family: $primary-font;
+        font-size: 27px;
+        font-weight: 700;
+        padding-bottom: 10px;
+      }
+      .sub-title {
+        font-size: 16px;
+        font-family: $secondary-font;
+        color: $text-color3;
+      }
+    }
+    .social-icons {
+      position: absolute;
+      top: -5px;
+      right: 20px;
+      opacity: 0;
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      .icon-container {
+        background: $btn-bg;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin-bottom: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &:hover {
+      .social-icons {
+        opacity: 1;
+        top: 20px;
+      }
+    }
+    @media (max-width: 576px) {
+      margin-bottom: 50px;
+    }
+  }
+}

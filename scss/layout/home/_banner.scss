@@ -1,0 +1,116 @@
+// ====================================
+// Banner
+// ====================================
+
+.banner {
+  .text-overlay {
+    @extend .h-v-center;
+    .title {
+      color: $bg-color3;
+      text-transform: capitalize;
+      font-weight: 700;
+      margin-bottom: 40px;
+      font-size: 90px;
+      font-family: $primary-font;
+      @media (max-width: 991px) {
+        font-size: 80px;
+      }
+      @media (max-width: 768px) {
+        font-size: 50px;
+        margin-bottom: 30px;
+      }
+      @media (max-width: 576px) {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      @media (max-width: 450px) {
+        font-size: 35px;
+        margin-bottom: 15px;
+      }
+      @media (max-width: 425px) {
+        font-size: 35px;
+        margin-bottom: 10px;
+      }
+      @media (max-width: 320px) {
+        font-size: 30px;
+        margin-bottom: 5px;
+      }
+    }
+    p {
+      color: $bg-color3;
+      margin-bottom: 65px;
+      font-size: 30px;
+      font-family: $primary-font;
+      font-weight: 500;
+      @media (max-width: 768px) {
+        font-size: 20px;
+        margin-bottom: 50px;
+      }
+      @media (max-width: 576px) {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      @media (max-width: 450px) {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      @media (max-width: 425px) {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+    }
+    @media (max-width: 576px) {
+      left: 50%;
+      width: 100%;
+    }
+  }
+
+  // Carousel
+
+  // banner-icon
+
+  .banner-icon {
+    color: $bg-color3;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    // color: $text-color;
+    background: $white;
+    align-items: center;
+    justify-content: center;
+    @include transition(all 0.3s ease 0s);
+    &:hover {
+      background: $bg-color1;
+      color: $white;
+      border: none;
+    }
+  }
+
+  .owl-nav {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+    // z-index: -1;
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+  }
+  .banner-l-btn {
+    background-color: $black;
+  }
+  .banner-bottom-btn {
+    @media (max-width: 576px) {
+      justify-content: center;
+    }
+  }
+}

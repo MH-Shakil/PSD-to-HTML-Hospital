@@ -1,0 +1,17 @@
+.about-banner {
+  img {
+    width: 100%;
+    display: block;
+  }
+  .text-overlay {
+    left: 50%;
+    .title {
+      margin-bottom: 20px;
+    }
+    .banner-link {
+      font-size: 18px;
+      font-family: $secondary-font;
+      font-weight: 500;
+    }
+  }
+}

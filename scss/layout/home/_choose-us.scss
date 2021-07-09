@@ -1,0 +1,118 @@
+.choose-us {
+  margin-top: 130px;
+  padding: 130px 0;
+  background: $bg-color5;
+
+  .choose-us-right {
+    padding-left: 50px;
+    @media (max-width: 991px) {
+      padding-left: 0;
+    }
+    .choose-us-top-h {
+      text-align: left;
+      padding-left: 40px;
+      @media (max-width: 767px) {
+        text-align: center;
+        padding-left: 0;
+      }
+      &::before {
+        width: 30px;
+        left: 0;
+        // @media (max-width: 767px) {
+        //   left: 0;
+        // }
+        @media (max-width: 767px) {
+          left: 27%;
+          width: 50px;
+        }
+        @media (max-width: 500px) {
+          left: 25%;
+        }
+        @media (max-width: 425px) {
+          left: 21%;
+        }
+        @media (max-width: 375px) {
+          left: 16%;
+        }
+        @media (max-width: 320px) {
+          left: 10%;
+        }
+      }
+      &::after {
+        display: none;
+        @media (max-width: 767px) {
+          display: block;
+          right: 27%;
+          width: 50px;
+        }
+        @media (max-width: 500px) {
+          right: 25%;
+        }
+        @media (max-width: 425px) {
+          right: 21%;
+        }
+        @media (max-width: 375px) {
+          right: 16%;
+        }
+        @media (max-width: 320px) {
+          right: 10%;
+        }
+      }
+    }
+    .choose-us-header {
+      text-align: left;
+      padding-bottom: 35px;
+      margin-top: 10px;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+    }
+    .para {
+      padding-bottom: 45px;
+      width: 95%;
+      font-family: $secondary-font;
+      color: $text-color3;
+      font-weight: 400;
+      margin-bottom: 0;
+      @media (max-width: 767px) {
+        text-align: center;
+        width: 100%;
+      }
+    }
+    .header-b {
+      font-size: 27px;
+      font-family: $primary-font;
+      font-weight: 600;
+      color: $bg-color3;
+    }
+    .para-b {
+      padding-top: 20px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .choose-us-icon {
+      margin-bottom: 15px;
+    }
+    @media (max-width: 991px) {
+      padding-top: 50px;
+    }
+    .choose-us-b-content {
+      @media (max-width: 767px) {
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    margin-top: 50px;
+    padding: 50px 0;
+  }
+  @media (max-width: 425px) {
+    margin-top: 0;
+  }
+  @media (max-width: 575px) {
+    padding-bottom: 0;
+  }
+}
