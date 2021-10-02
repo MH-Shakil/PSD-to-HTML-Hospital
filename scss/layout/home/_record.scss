@@ -5,15 +5,15 @@
     margin-top: 50px;
   }
   .record-area {
-    background: url(../../../img/about-page/about-record/Bg.png);
+    // background-image: url(../../../img/about-page/about-record/Bg.png);
     background-position: center;
     background-size: cover;
     height: 300px;
     display: flex;
     align-items: center;
-    @media (max-width: 575px) {
-      background: $bg-color3;
-    }
+    // @media (max-width: 575px) {
+    //   background: $bg-color3;
+    // }
   }
   .record-container {
     padding: 90px 0;

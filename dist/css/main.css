@@ -1650,18 +1650,11 @@ th {
 }
 
 .record .record-area {
-  background: url(../../../img/about-page/about-record/Bg.png);
   background-position: center;
   background-size: cover;
   height: 300px;
   display: flex;
   align-items: center;
-}
-
-@media (max-width: 575px) {
-  .record .record-area {
-    background: #091d3e;
-  }
 }
 
 .record .record-container {
